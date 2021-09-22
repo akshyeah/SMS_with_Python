@@ -6,8 +6,8 @@ client = Client(account_sid, auth_token)
  
 message = client.messages.create(  
                               messaging_service_sid='MGc46faecba598a1dcc7ab7a0b206ee79b', 
-                              body='Hey! My chubby, If I could order your steps, I’ll have brought you my way quite sooner than now. 😘 ❤',      
-                              to='+919773502080' 
+                              body='Hey! Type your msg here',      
+                              to='+91<mobile-number>' 
                           ) 
  
 print(message.sid)
